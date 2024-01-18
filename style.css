@@ -1,0 +1,83 @@
+*{
+    background-color: rgb(80, 173, 255);
+}
+#myheading{
+    text-align: center;
+    margin: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#getstarted{
+    display: none;
+}
+#btncontainer{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+#show-hide{
+    font-size: 5rem;
+    border: solid 2px white;
+    background-color: rgb(0, 157, 255);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+#show-hide:hover{
+    background-color: hsl(203, 100%, 60%);
+}
+#img-container{
+    text-align: center;
+}
+#Choice{
+    font-size: 2rem;
+    color: white;
+    border: solid 2px white;
+    padding: 5px 10px ;
+}
+#hidden1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.rps{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    padding: 20px;
+    margin: 0 15px;
+    border-radius: 30px;
+    background-color: rgb(0, 195, 255);
+    transition: background-color 0.5s ease;
+    border: solid 5px rgb(0, 195, 255);
+}
+.rps2{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    padding: 20px;
+    margin: 0 15px;
+    border-radius: 30px;
+    background-color: rgb(0, 195, 255);
+    transition: background-color 0.5s ease;
+    border: solid 5px rgb(0, 195, 255);
+    margin-top: 25px;
+}
+.rps:hover{
+    background-color: rgb(205, 246, 255);
+}
+.results-container{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+}
+.results{
+    font-size: 2rem;
+}

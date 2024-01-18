@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock-Paper-Scissor</title>
+</head>
+<body>
+    <h1 id="myheading">Rock, Paper, Scissor</h1>
+    <div id="btncontainer"><button id="show-hide" onclick="show()">Get Started</button></div>
+    <div id="getstarted">
+        <div id="img-container">
+            <img src="rock.png" alt="rock" id="rock" class="rps" onclick="playGame('rock')">
+            <img src="paper.png" alt="paper" id="paper" class="rps" onclick="playGame('paper')">
+            <img src="scissor.png" alt="scissor" id="scissor" class="rps" onclick="playGame('scissor')">
+        </div>
+        <div id="hidden1" style="display: none;">
+            <div style="text-align: center;">
+                <div id="Choice">You chose: </div>
+                <div id="playerChoiceImg"></div>
+            </div>
+            <div style="text-align: center;">
+                <div id="Choice">Computer chose: </div>
+                <div id="computerChoiceImg"></div>
+            </div>
+        </div>
+        <div class="results-container">
+            <div id="outcomes" class="results">Select Your Choice (Rock, Paper, Scissor)</div><br>
+            <div id="player-count" class="results">Player: 0</div>
+            <div id="computer-count" class="results">Computer: 0</div>
+            <div id="draw-count" class="results">Ties: 0</div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
