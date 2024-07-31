@@ -11,11 +11,17 @@ You can try the live demo [here](https://sharif-islam96403.github.io/Rock-Paper-
 ## Usage
 
 1. Clone the repository:
-    ```git clone https://github.com/yourusername/Rock-Paper-Scissor-Website.git```
-2. Navigate to the project directory:
-    ```cd Rock-Paper-Scissor-Website```
-3. Open `index.html` in your browser:
-    ```open index.html```
+    ```
+   git clone https://github.com/yourusername/Rock-Paper-Scissor-Website.git
+    ```
+3. Navigate to the project directory:
+    ```
+   cd Rock-Paper-Scissor-Website
+    ```
+5. Open `index.html` in your browser:
+    ```
+   open index.html
+    ```
 
 
 ### Feel free to submit issues and pull requests.
