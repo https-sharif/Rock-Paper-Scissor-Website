@@ -6,13 +6,13 @@ Have fun!
 
 ## Live Demo
 
-You can try the live demo [here](https://sharif-islam96403.github.io/Rock-Paper-Scissor-Website/).
+You can try the live demo [here](https://https-sharif.github.io/Rock-Paper-Scissor-Website/).
 
 ## Usage
 
 1. Clone the repository:
     ```
-   git clone https://github.com/yourusername/Rock-Paper-Scissor-Website.git
+   git clone https://github.com/https-sharif/Rock-Paper-Scissor-Website.git
     ```
 3. Navigate to the project directory:
     ```
